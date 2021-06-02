@@ -32,12 +32,6 @@ int main()
     printf("Digite sua opção:");
     scanf("%lf",&opcao);
 
-    if(opcao == 2) {
-          printf("\nCALCULANDO RAÍZ QUADRADA\n");
-          printf("Digite um número: ");
-          scanf("%lf",&numeroRaiz);
-          printf("RESULTADO: %f",resultadoRaiz = sqrt(numeroRaiz));
-      }
       if(opcao == 1) {
           printf("\nSOMANDO DOIS NÚMEROS");
           printf("\nDigite o primeiro número: ");
