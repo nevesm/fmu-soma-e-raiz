@@ -42,6 +42,25 @@ int main()
           printf("-----------------------------\n");
           printf("RESULTADO: %f\n", n1 + n2);
           printf("-----------------------------\n");
-      } 
-      
+          printf("\nAperte Ctrl+C para sair!\n");
+          pause();
+      }
+      if(opcao == 2) {
+          printf("\nCALCULANDO RAÍZ QUADRADA\n");
+          printf("Digite um número: ");
+          scanf("%lf",&numeroRaiz);
+          printf("\n--------------------------\n");
+          printf("RESULTADO: %f",resultadoRaiz = sqrt(numeroRaiz));
+          printf("\n--------------------------\n");
+          printf("\nAperte Ctrl+C para sair!\n");
+          pause();
+      }
+      else {
+          printf("\nOPÇÃO INVÁLIDA!!\n");
+          printf("\nOPÇÃO INVÁLIDA!!\n");
+          printf("\nOPÇÃO INVÁLIDA!!\n");
+          printf("\nAperte Ctrl+C para sair!\n");
+          pause();
+
+      }
 }
